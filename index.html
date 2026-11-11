@@ -233,6 +233,18 @@ p{margin:0}
 .ps{max-width:760px;margin:clamp(24px,3vw,36px) auto 0;text-align:left;font-size:17px;color:var(--on-night-2);line-height:1.55;padding-top:20px;border-top:1px solid var(--line-n)}
 .ps b{color:var(--on-night)}
 
+
+/* WhatsApp */
+.wa{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(20px,3vw,36px);align-items:center;max-width:960px;margin:0 auto;padding:clamp(24px,3.5vw,40px);border-radius:26px;background:var(--paper);border:1px solid var(--line);box-shadow:0 30px 60px -40px rgba(20,20,23,.35)}
+.wa-ic{width:84px;height:84px;border-radius:50%;background:#1F8F4E;color:#fff;display:grid;place-items:center}
+.wa-ic svg{width:44px;height:44px}
+.wa h2{font-size:clamp(24px,2.6vw,32px);margin-bottom:6px}
+.wa p{font-size:17.5px;color:var(--ink-2);line-height:1.5}
+.wa-btn{display:inline-flex;align-items:center;gap:10px;min-height:60px;padding:0 28px;border-radius:999px;background:#1F8F4E;color:#fff;font-family:var(--head);font-weight:700;font-size:16px;text-decoration:none;white-space:nowrap;transition:transform .3s var(--ease)}
+.wa-btn:hover{transform:translateY(-2px)}
+.wa-btn svg{width:22px;height:22px}
+@media (max-width:760px){.wa{grid-template-columns:minmax(0,1fr);text-align:center;justify-items:center}.wa-btn{width:100%;justify-content:center}}
+
 /* Header */
 .hdr{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(10,10,12,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line-n)}
 .hdr .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:66px}
@@ -364,6 +376,7 @@ footer img{width:30px;height:30px;border-radius:50%;margin-bottom:6px}
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Manual prático de mensuração e fixação de honorários advocatícios — Método MENSURA", "description": "O erro de honorários começa antes do preço. Manual prático de mensuração e fixação de honorários advocatícios: Método MENSURA, 10 ferramentas, modelos de proposta e contrato e Skill para ChatGPT.", "brand": {"@type": "Brand", "name": "Arquivo Contratual"}, "image": "assets/cover.webp", "offers": {"@type": "Offer", "price": "147.90", "priceCurrency": "BRL", "availability": "https://schema.org/InStock"}}</script>
 <!-- Meta Pixel (mesmo pixel da Arquivo Contratual; troque o ID se este produto usar outro) -->
 <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1024412929995875');fbq('track','PageView');</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1024412929995875&ev=PageView&noscript=1" alt=""></noscript>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
@@ -377,6 +390,7 @@ footer img{width:30px;height:30px;border-radius:50%;margin-bottom:6px}
 <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="4" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="4" y="13" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="13" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
 <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M11 18h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
 <symbol id="i-back" viewBox="0 0 24 24"><path d="M9 14L4 9l5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 9h10a6 6 0 010 12h-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.8 8.6c.2-.5.6-.5.9-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .5.6 1 1.4 1.8 2.4 2.3.2.1.4.1.5-.1l.6-.7c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.3.3.5 0 .9-.6 1.6-1.5 1.8-1 .2-2.3-.2-3.9-1.3a9.4 9.4 0 01-2.6-3c-.6-1.1-.6-2.1-.2-2.8z" fill="currentColor"/></symbol>
 </defs></svg>
 
 <header class="hdr">
@@ -756,6 +770,20 @@ footer img{width:30px;height:30px;border-radius:50%;margin-bottom:6px}
     </div>
   </div>
 </section>
+<!-- 8b. WHATSAPP -->
+<section class="sec" id="whatsapp" style="padding-top:clamp(40px,5vw,64px)">
+  <div class="wrap">
+    <div class="wa">
+      <span class="wa-ic" aria-hidden="true"><svg><use href="#i-wa"/></svg></span>
+      <div>
+        <h2>Ficou alguma dúvida?</h2>
+        <p>Fale com a nossa equipe pelo WhatsApp. Respondemos sobre o conteúdo, a Skill, o acesso pela Hubla e a garantia, antes de você decidir.</p>
+      </div>
+      <a class="wa-btn" href="https://wa.me/message/KL4QZZ5SGHRFL1" target="_blank" rel="noopener" data-whats><svg><use href="#i-wa"/></svg>Tirar dúvidas no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
 <!-- 9. FINAL -->
 <section class="sec dark final">
   <div class="bg" aria-hidden="true"><img src="assets/man-red.webp" alt="" width="997" height="831" loading="lazy"></div>
@@ -785,7 +813,7 @@ footer img{width:30px;height:30px;border-radius:50%;margin-bottom:6px}
 (function(){
   /* ===== CONFIGURAÇÃO — altere aqui ===== */
   var CONFIG={
-    checkout:'',          // link do checkout (Hubla). Vazio = botões levam à oferta.
+    checkout:'https://pay.hub.la/oAMX8gcPfRWU7eCbEqQa',          // link do checkout (Hubla). Vazio = botões levam à oferta.
     cash:147.90,
     installments:0,       // ex.: 12
     installmentValue:0    // valor da parcela informado pela Hubla
@@ -814,6 +842,7 @@ footer img{width:30px;height:30px;border-radius:50%;margin-bottom:6px}
       var f1=13*h+300,f2=11*h;document.getElementById('f1').textContent=fmt(f1);document.getElementById('f2').textContent=fmt(f2);document.getElementById('tot').textContent=fmt(f1+f2);}
     r.addEventListener('input',upd);upd();
   })();
+  $$('[data-whats]').forEach(function(a){a.addEventListener('click',function(){track('Contact',{content_name:'WhatsApp MENSURA'})})});
   var yr=document.getElementById('yr');if(yr)yr.textContent=new Date().getFullYear();
   if('IntersectionObserver' in window){
     var bar=document.getElementById('mbar'),hero=document.getElementById('topo'),off=document.getElementById('oferta'),hOut=false,oIn=false,seen=false;
